@@ -93,14 +93,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h3>What is LWM2M?</h3>
+          <h3>What is LwM2M?</h3>
           <p>OMA Lightweight M2M is a protocol from the Open Mobile
           Alliance for M2M or IoT device management.</p>
           <ul>
             <li>On top of CoAP</li>
             <li>UDP and SMS transport layer support</li>
             <li>Simple Object based resource model</li>
-            <li>Basic M2M functionalities: LWM2M Server, Access
+            <li>Basic M2M functionalities: LwM2M Server, Access
             Control, Device, Connectivity, Firmware Update,
             Location, Connectivity Statistics</li>
             <li>DTLS based security</li>
@@ -129,15 +129,15 @@
           portable on POSIX compliant systems.</p>
           <p>Two compilation switches are used: LWM2M_CLIENT_MODE
           and LWM2M_SERVER_MODE. Defining LWM2M_CLIENT_MODE enables
-          the LWM2M Client interfaces. Defining LWM2M_SERVER_MODE
-          enables the LWM2M Server interfaces. Both can be defined
+          the LwM2M Client interfaces. Defining LWM2M_SERVER_MODE
+          enables the LwM2M Server interfaces. Both can be defined
           at the same time.</p>
           <p>Wakaama is mono-threaded. An application can call a
-          HandlePacket API to feed Wakaama with received LWM2M
-          packets and a Step API to perform any pending LWM2M
+          HandlePacket API to feed Wakaama with received LwM2M
+          packets and a Step API to perform any pending LwM2M
           operations.</p>
           <p>Wakaama provides APIs for a server application to send
-          commands to registered LWM2M Clients. On client
+          commands to registered LwM2M Clients. On client
           applications, Wakaama checks received commands for syntax
           and access rights and then dispatches them to the
           relevant objects.</p>
